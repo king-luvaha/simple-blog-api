@@ -242,3 +242,5 @@ echo ".env" >> .gitignore
 MIT License
 
 ---
+
+Roadmap Project URL: https://roadmap.sh/projects/blogging-platform-api
