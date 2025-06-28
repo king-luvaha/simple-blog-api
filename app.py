@@ -21,16 +21,6 @@ app.config['MYSQL_PORT'] = int(os.getenv('MYSQL_PORT', 3308))
 
 mysql = MySQL(app)
 
-
-print("Connecting to MySQL with:")
-print("Host:", os.getenv('MYSQL_HOST'))
-print("User:", os.getenv('MYSQL_USER'))
-print("Password:", os.getenv('MYSQL_PASSWORD'))
-print("DB:", os.getenv('MYSQL_DB'))
-
-print("Loaded DB user:", os.getenv('MYSQL_USER'))
-
-
 # Helper function to serialize rows
 def serialize_post(row):
     return {
